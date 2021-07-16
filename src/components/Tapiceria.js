@@ -47,7 +47,6 @@ export default function CenteredGrid() {
             y su durabilidad está más que probada.</p>
 
             <br></br>
-            <h1>titulo</h1>
 
           </div>
 
