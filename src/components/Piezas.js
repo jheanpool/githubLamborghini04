@@ -38,6 +38,8 @@ export default function CenteredGrid() {
         <Grid item xs={11} sm={11} md={11} lg={11}>
           <div className="informacion_piezas">
 
+            <h1>titulo</h1>
+
             <p>compuesto de caucho especial, preparado para hacer frente a todas
             las condiciones climáticas. La banda de rodadura del neumático está
             diseñada para garantizar el máximo agarre en rectas y curvas, al
