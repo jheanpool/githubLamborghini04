@@ -1,0 +1,40 @@
+
+
+             @media screen and (max-width: 1024px) {
+                        .row, .navbar {
+                    flex-direction: column;
+                        padding-top: 8%;
+
+                               }
+
+
+.terzo_galeria{
+
+margin-top: -3%;
+position: absolute;
+width: 100%;
+margin-left: 0%;
+
+}
+
+
+.flecha_der_terzo{
+
+position: absolute;
+position: fixed;
+margin-top: 17%;
+margin-left: 87%;
+cursor: pointer;
+}
+
+.flecha_izq_terzo{
+
+position: absolute;
+position: fixed;
+margin-top: 17%;
+margin-left: 1.5%;
+cursor: pointer;
+}
+
+
+ }

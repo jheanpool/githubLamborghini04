@@ -1,0 +1,113 @@
+  
+.login{
+    width:200px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border: 0px solid #dbdbdb;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10%;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    z-index: 0;
+    position: absolute;
+    z-index: 1000;
+    margin-left: 21%;
+    
+} 
+
+input{
+    width: 95%;
+    border: 1px solid #dbdbdb;
+    padding: 5px;
+    margin: 2px 0;
+    border-radius: 5px;
+    background-color: #fafafa;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: 'Open Sans Condensed', sans-serif;
+    z-index: 1000;
+}
+
+button{
+    width: 100%;
+    margin: 5px 0;
+    background:rgb(7, 7, 7); 
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+button:hover{
+      
+    background-color: rgb(255, 189, 47);
+}
+
+.logo_login{
+
+    margin-left: -5%;
+    margin-top: 15%;
+    width: 220px;
+    filter: brightness(90%);
+ 
+}
+
+.img_login{
+
+    position: absolute;
+    margin-top: -80px;
+    
+  
+}
+
+                          @media screen and (max-width: 1024px) {
+                                    .row, .navbar {
+                                flex-direction: column;
+                                    padding-top: 8%;
+
+}
+
+.login{
+   margin-top: 10%;
+   margin-left: 1%;
+    
+} 
+
+
+.img_login{
+
+    opacity: 100%;
+    width: 1650px;
+    margin-left: -1120px;
+    margin-top: 10px;
+
+
+}
+
+.logo_login{
+
+    margin-left: 140px;
+    width: 130px;
+    margin-top: 70px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

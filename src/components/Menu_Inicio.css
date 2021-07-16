@@ -1,0 +1,39 @@
+
+                          @media screen and (max-width: 1024px) {
+                            .row, .navbar {
+                        flex-direction: column;
+                            padding-top: 8%;
+
+}
+
+.navbar_inicio {
+
+margin-left:64%;
+text-align: end;
+
+
+}
+
+.navbar_inicio a {
+
+    padding-left: 3%;
+
+}
+
+.img_login{
+
+    opacity: 100%;
+    margin-top: -1px;
+    
+}
+
+.Logo_menu_inicio{
+
+    margin-left:-27.5%;
+
+}
+
+
+
+
+}

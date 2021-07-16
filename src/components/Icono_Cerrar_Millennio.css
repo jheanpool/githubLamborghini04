@@ -1,0 +1,30 @@
+
+
+                          @media screen and (max-width: 1024px) {
+                                    .row, .navbar {
+                                flex-direction: column;
+                                    padding-top: 8%;
+
+                                           }
+
+
+.icono_cerrar_millennio{
+
+    margin-left: 84.4%;
+    margin-top: 3px;
+    z-index: 1000;
+       
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+}

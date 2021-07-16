@@ -1,0 +1,73 @@
+
+                @media screen and (max-width: 1024px) {
+                            .row, .navbar {
+                        flex-direction: column;
+                            padding-top: 8%;
+
+}
+
+.login01{
+    
+margin-top: 35%;
+margin-left: 67%;
+z-index: 1000;
+position: absolute;
+
+} 
+
+.sing_in{
+
+margin-left: 26%;
+
+}
+
+.login{
+
+
+margin-left: -7%;
+}
+
+
+.img_login{
+
+opacity: 0%;
+width: 1650px;
+margin-left: -1120px;
+margin-top: 10px;
+
+
+}
+
+.logo_login{
+
+margin-left: 140px;
+width: 130px;
+margin-top: 70px;
+
+}
+
+.icono_login{
+
+    z-index: 1000;
+    margin-left: 80%;
+    margin-top:15%;
+    width: 220px;
+    filter: brightness(90%);
+    
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

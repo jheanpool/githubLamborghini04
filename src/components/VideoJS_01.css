@@ -1,0 +1,34 @@
+                        @media screen and (max-width: 1024px) {
+                                .row, .navbar {
+                            flex-direction: column;
+                                padding-top: 8%;
+
+                                       }
+
+
+.video-js{
+
+    display: block;
+    margin-left: 0%;
+    width: 415px;
+    height: 220px;
+
+}
+
+.vjs-poster {
+
+    border-radius: 3px;
+}
+
+.vjs-big-play-button{
+
+    background-color: rgb(59, 59, 59) !important;
+    border-color: rgba(255, 255, 255, 0) !important;
+    box-shadow: 3px 3px 3px rgb(7, 7, 7);
+    opacity: 90%;
+    z-index: 0;
+}
+
+}
+
+           

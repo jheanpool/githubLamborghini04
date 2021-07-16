@@ -1,0 +1,173 @@
+
+.body{
+
+   
+background-color: rgb(255, 255, 255);
+
+
+}
+
+.icono_entrar{
+
+    color: #fafafa;
+    margin-left: 46%;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    position: absolute;
+   
+}
+
+.email_up{
+
+    color: #fafafa;
+    margin-left: 17%;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+   
+}
+
+
+button{
+    width: 100%;
+    margin: 5px 0;
+    background:rgb(7, 7, 7); 
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+button:hover{
+      
+    background-color: rgb(255, 189, 47);
+}
+
+.sing_in{
+
+    color: #fafafa;
+    margin-left: -98%;
+    position: absolute;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    width: 500%;
+    margin-top: -20%;
+   
+}
+
+.login{
+    width:200px;
+    height:270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 0px solid #dbdbdb;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: -40%;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    z-index: 0;
+    position: absolute;
+    z-index: 1000;
+    margin-left: 41%;
+    
+} 
+
+input{
+    width: 95%;
+    border: 1px solid #dbdbdb;
+    padding: 5px;
+    margin: 2px 0;
+    border-radius: 5px;
+    background-color: #fafafa;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: 'Open Sans Condensed', sans-serif;
+    z-index: 1000;
+}
+
+button {
+    width: 100%;
+    margin: 5px 0;
+    background:rgb(7, 7, 7);
+    font-family: 'Hind Madurai', sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+button a :hover{
+      
+    background:rgb(253, 183, 33);
+}
+
+.logo_login01{
+
+    margin-left: 40px;
+    margin-top:2%;
+    width: 220px;
+    filter: brightness(90%);
+    z-index: 1000;
+ 
+}
+
+.img_login{
+
+    position: absolute;
+    margin-top: -80px;
+    position: absolute;
+    
+  
+}
+
+                          @media screen and (max-width: 1024px) {
+                                    .row, .navbar {
+                                flex-direction: column;
+                                    padding-top: 8%;
+
+}
+
+.login{
+   margin-top: 10%;
+   margin-left: 1%;
+   z-index: 1000;
+   position: absolute;
+    
+} 
+
+.sing_in{
+
+    margin-left: 26%;
+
+}
+
+
+.logo_login{
+
+    margin-left: 140px;
+    width: 130px;
+    margin-top: 70px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+

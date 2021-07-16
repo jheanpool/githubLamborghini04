@@ -1,0 +1,1383 @@
+body {
+
+   
+    background-color: rgb(48, 48, 51);
+
+
+}
+
+  
+.App {
+
+    max-width: 1920px;
+  
+}
+  
+.App-link {
+    color: #09d3ac;
+}
+  
+.row {
+    display: flex;
+}
+  
+.sidebar {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+  
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+    
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+        
+}
+  
+.MuiMenu-paper {
+
+    max-height: calc(100% - 96px);
+    -webkit-overflow-scrolling: touch;
+    margin-top: 93px;
+    margin-left: 40px;
+    width: 140px;
+    
+}
+  
+.MuiMenu-list {
+  
+    background-color: rgb(24, 24, 26);
+    z-index: 0;
+    box-shadow: none;
+    border-radius: none;
+      
+}
+
+.MuiMenu-list a {
+  
+    width: 100%;
+    padding: 2px 2px 2px;
+    z-index: 0;
+    font-size: 22px;
+      
+}
+
+.MuiMenu-list a:hover{
+        
+    background:rgb(253, 183, 33); 
+       
+}
+  
+.MuiButton-label {
+    margin-top: 10px;
+    padding: 0px 5px 0px;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 1px 1px 1px rgb(0 0 0);
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    height: 70px;
+}
+
+.MuiButtonBase-root{
+  
+    padding: 45px 45px 45 px;
+    
+}
+
+button{
+       
+    margin-top: 2000px;
+    padding: auto;
+    opacity: 100%;
+    
+}
+  
+    
+.Logo_menu{
+    
+    margin-top: 1%;
+    margin-left: 1%;
+    padding-top: 8px;
+      
+}
+
+    
+.navbar {
+    display: flex;
+    background-color: rgb(24, 24, 26);
+    padding-top: -200% ;
+    position: fixed;
+    width: 1920px;
+    z-index: 1000;
+    box-shadow: none;
+    margin-top: -100px;
+        
+}
+
+
+          
+    
+.navbar a {
+    color:  rgb(255, 255, 255);
+    padding: 60px 30px 40px 28px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    margin-top: -15px;
+    font-size: 18px;
+       
+}
+    
+.navbar a:hover{
+        
+   
+    background:rgb(105, 105, 105);
+    height: 23px;
+   
+       
+}
+
+.navbar a:focus{
+        
+    background:rgb(253, 183, 33);
+   
+       
+}
+
+.icono_lamborghini{
+
+    color: #ffffff;
+    margin-left: -10px;
+    margin-top: 40px;
+
+
+}
+.MuiSvgIcon-root {
+
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.MuiButton-label {
+    margin-top: 10px;
+    padding: 0px 40px 0px;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    height: 70px;
+}
+
+.boton_lamborghini {
+
+    font-family: 'Abel', sans-serif;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 18px;
+    margin-top: 6px;
+    width: 200px;
+
+
+
+    
+}
+
+.boton_lamborghini:hover {
+
+    background:rgba(255, 166, 0, 0); 
+    
+
+}
+   
+.sidebar {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+    
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.imagen_entrada{
+
+    z-index: 1000;
+    filter: brightness(10%);
+    display: block;
+    
+}
+
+.imagen_entrada:hover{
+
+    filter: brightness(100%);
+    transition: 0.5s;
+    transform: scale(1);
+
+}
+
+.navbar_inicio {
+    display: flex;
+    background-color: rgba(24, 24, 26, 0);
+    margin-top: 1% ;
+    position: fixed;
+    width: 1920px;
+    z-index: 1000;
+    box-shadow: none;
+    z-index: 1000;
+    margin-left: 82%;
+    height: 10px;
+        
+}
+
+.navbar_inicio a {
+
+    color:  rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: right;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    margin-top: 20px;
+    font-size: 20px;
+    margin: left 0%;
+    padding-left: 2%;
+    z-index: 1000;
+       
+}
+
+.navbar_inicio a:hover{
+        
+
+   color: #ffd000;
+  
+     
+}
+
+.navbar_inicio a:focus{
+        
+    color:rgb(253, 183, 33);
+   
+       
+}
+
+.img_login{
+
+    padding-top: 2%;
+    width: 102%;
+ 
+}
+
+.Logo_menu_inicio{
+    
+    margin-top: 6px;
+    margin-left: -90px;
+    z-index: 1000;
+    z-index: 1000;
+    position: absolute;
+
+      
+}
+
+
+
+
+                      @media screen and (max-width: 1024px) {
+                                 .row, .navbar {
+                            flex-direction: column;
+                                 padding-top: 8%;
+                        
+                                         }
+ 
+
+.img_login{
+
+padding-left: 80%;
+padding-top: 0%;
+    
+}
+                                         
+
+body {
+
+    background-color: rgb(24, 24, 26);
+
+}
+
+.boton_aventador:hover{
+
+    background:rgb(255, 191, 54); 
+    
+}
+
+.icono_sonido{
+
+    color: #ffffff;
+    margin-left: 5000px;
+}
+                                    
+.navbar {
+    display: flex;
+    background-color: rgb(24, 24, 26);
+    padding-top: 0%;
+    box-shadow:none;
+    width:300px;
+    position: relative;
+    margin-top: -80px;
+      
+}
+   
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    padding: 20px 45px 15px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    margin-top: -0.1%;
+    font-size: 16.5px;
+    
+       
+}
+
+.navbar a:hover{
+        
+    background:rgb(253, 183, 33);
+    height: 20px;
+    width: 325px;
+       
+}
+
+
+.Logo_menu{
+    
+    margin-top: 3%;
+    margin-left: 1.6%;
+    padding: 0.3%;
+
+ 
+      
+}
+
+.Logo_menu01{
+    
+    margin-top: -17%;
+    margin-left: 2.5%;
+    padding: 0.3%;
+ 
+      
+}
+
+.MuiButton-label {
+
+    margin-top: -22px;
+    margin-left: -205px;
+    padding: 0px 5px -50px;
+    display: content;
+      
+}
+
+.MuiSvgIcon-root {
+
+    margin-top: -5px;
+    margin-left: 0px;
+    color: #ffffff;
+    
+}
+
+.MuiMenu-list {
+    outline: 0;
+    background-color: rgb(8, 9, 12);
+    margin-top: 1200%;
+    margin-left: 50%;
+    
+    
+}
+
+.MuiMenu-paper {
+    max-height: calc(100% - 96px);
+    -webkit-overflow-scrolling: touch;
+    margin-top: 45px;
+    margin-left:35px;
+    width: 140px;
+    box-shadow: none;
+    border-radius: none;
+
+}
+
+.boton_lamborghini {
+
+    font-family: 'Abel', sans-serif;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 16.5px;
+    margin-left: 100%;
+    color: rgb(255, 255, 255);
+    margin-left: 109px;
+    padding-bottom: 0%;
+    
+}
+
+.boton_lamborghini:hover {
+
+    background:none;
+    
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.MuiButton-text {
+    padding: 6px 8px;
+    margin-left: 50px;
+}
+
+.iconos_footer01{
+  
+    width: 78%;
+    margin-left: 8%;
+      
+}
+
+.iconos_footer{
+  
+    width: 78%;
+    margin-left:8%;
+    padding-top: 1px;
+      
+}
+
+.iconos_footer{
+  
+    width: 78%;
+    margin-left:8%;
+    padding-top: 1px;
+      
+}
+
+.informacion_footer{
+
+    margin-top:2000%;
+         
+}
+
+.informacion_footer01{
+
+    margin-top:2000%;
+         
+}
+
+
+.titulo_contacto{
+
+    color: rgb(255, 255, 255);
+    padding-left:-300px;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 20px;
+    
+
+}
+
+.informacion_contacto{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 18px;
+    padding-left: 0px;
+   
+}
+
+.icono_contacto{
+
+    color: #000000;
+    margin-left: -465px;
+    
+}
+
+.boton_mapa{
+
+    padding-top: 125%;
+    padding: -2000px;
+    margin-right: 500px;
+    position: fixed;
+    z-index: 1000;
+    opacity: 0% ;
+
+}
+.boton_llamar{
+
+    opacity: 0%;
+
+}
+
+.imagen_tapiceria{
+
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+.entrada01{
+
+    transform: scale(1.02);
+    margin-left: -0.3%; 
+    filter: brightness(20%);
+    margin: 0%;
+  
+}
+  
+.entrada01:hover{
+  
+    filter: brightness(100%);
+    transition: 0.5s;
+    transform: scale(1.07);
+    
+}
+  
+.imagenes_galeria01{
+    
+    display: initial;
+    filter:brightness(40%)
+
+}
+
+.imagenes_galeria01:hover{
+
+    filter: brightness(100%);
+    cursor: pointer;
+    
+}
+
+.imagenes_galeria{
+
+    margin-left: 1px;
+      
+}
+
+.imagenes_galeria02{
+
+    margin-top: -1%;
+    filter:brightness(40%)
+      
+}
+
+.imagenes_galeria02:hover{
+
+    filter: brightness(100%);
+    cursor: pointer;  
+
+}
+
+
+.makeStyles-paper-10 {
+    border: 0px solid rgba(0, 0, 0, 0);
+    padding: 16px 32px 24px;
+    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 5px 8px 0px rgb(0 0 0 / 14%), 0px 1px 14px 0px rgb(0 0 0 / 12%);
+    background-color: rgb(10, 3, 3);
+}
+
+button {
+    margin-top: 0px;
+    padding: auto;
+    opacity: 100%;
+    color: #f0f8ff00;
+    background: #0088ff00;
+    border: rgba(240, 248, 255, 0);
+}
+
+.titulo_galeria{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 23px;
+
+}
+
+.informacion_galeria{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+
+}
+
+.titulo_millennio{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 23px;
+
+}
+
+.nosotros{
+
+    background-color:none;
+    height: 170%;
+}
+
+.galeria{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.titulo_nosotros{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 8%;
+
+}
+
+.informacion_nosotros{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin-left: 8%;
+
+}
+
+.informacion_millennio{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    margin-left: 8%;
+
+}
+
+.titulo_tapiceria{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 23px;
+
+}
+
+.informacion_tapiceria{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin-left: 8%;
+
+}
+
+.informacion_piezas{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin-left: 8%;
+
+}
+
+.titulo_ruedas{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 23px;
+
+}
+
+.informacion_ruedas{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+
+}
+
+.titulo_ruedas{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 23px;
+
+}
+
+.informacion_ruedas{
+
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin-left: 10px;
+
+}
+
+.titulo_velocimetro{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 23px;
+
+}
+
+.informacion_velocimetro{
+
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin-left: 10px;
+
+}
+
+.titulo_cambios{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 23px;
+    
+
+}
+
+.informacion_cambios{
+
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin-left: 10px;
+    
+
+}
+
+.titulo_motor{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 23px;
+
+}
+
+.informacion_motor{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin-left: 8%;
+
+}
+
+.titulo_v12{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 23px;
+
+}
+
+.informacion_v12{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+
+}
+
+.imagenes_v12{
+
+    border-color: rgba(255, 255, 255, 0);
+    background-color:rgba(0, 0, 255, 0);
+    margin-left: 10px;
+}
+
+.tipos_lamborghini{
+
+    margin-top: -5px;
+   
+}
+
+.titulo_tipos_lamborghini{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 8%;
+    
+}
+
+.informacion_tipos_lamborghini{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    margin-left: 8%;
+
+}
+
+.titulo_ubicacion{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin-top: 100px;
+
+}
+
+.informacion_ubicacion{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+   
+}
+
+.titulo_contacto{
+
+    color: rgb(255, 255, 255);
+    padding-left:635px;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 20px;
+    
+
+}
+
+.informacion_contacto{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 18px;
+    padding-left: 0px;
+   
+}
+
+.icono_contacto{
+
+    color: #ffffff;
+    padding-left: 650px;
+    
+}
+
+.footer{
+
+    height: 90%;
+    background-color: rgb(8, 9, 12);
+    margin-top: -8px;
+    padding-top: 0%;
+}
+
+.iconos_footer{
+
+    color: #ffffff;
+    margin-top: 40px;
+    padding: 0% 0% 0% 28% ; 
+           
+}
+
+.iconos_footer a:hover{
+
+    filter: brightness(100%);
+    transition: 0.1s;
+    transform: scale(1.10);
+  
+    
+}
+
+.informacion_footer{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin-left: 0%;
+    margin-top: -20px;
+
+        
+}
+
+.informacion_contacto{
+
+    color: #ffffff;
+    padding: 5px 5px 5px 5px ;
+    background-color: rgb(4, 4, 5);
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 16px;
+    margin-left: -400px;
+    
+}
+
+.icono_cerrar_millennio{
+
+ 
+    color: #ffffff;
+    z-index: 1000;
+    margin-top: 4px;
+    margin-left: 96%;
+    position: absolute;
+    cursor: pointer;
+    position: fixed;
+    opacity: 80%;
+
+}
+
+.v12_galeria{
+
+    margin-top: -155px;
+    position: absolute;
+     
+}
+
+.terzo_galeria{
+
+    margin-top: -12px;
+    position: absolute;
+     
+}
+
+.v12_miniatura{
+
+    margin-left: 70%;
+    margin-top: 33.5px;
+     
+}
+
+.v12_miniatura_01{
+
+    margin-top: 35.1%;
+    margin-left: 5%;
+    position: absolute;
+    filter: brightness(140%);
+
+     
+}
+
+.v12_miniatura_02{
+
+    margin-top: 35.1%;
+    margin-left: 20%;
+    position: absolute;
+    filter: brightness(20%);
+    
+   
+     
+}
+
+.v12_miniatura_03{
+
+    margin-top: 35.1%;
+    margin-left: 35%;
+    position: absolute;
+    filter: brightness(20%);
+   
+     
+}
+
+
+.flecha_der_v12{
+
+    position: absolute;
+    position: fixed;
+    margin-top: 16%;
+    margin-left: 95%;
+    cursor: pointer;
+}
+
+.flecha_izq_v12{
+
+    position: absolute;
+    position: fixed;
+    margin-top: 16%;
+    margin-left: 1.5%;
+    cursor: pointer;
+}
+
+.flecha_der_terzo{
+
+    position: absolute;
+    position: fixed;
+    margin-top: 21%;
+    margin-left: 95%;
+    cursor: pointer;
+}
+
+.flecha_izq_terzo{
+
+    position: absolute;
+    position: fixed;
+    margin-top: 21%;
+    margin-left: 1.5%;
+    cursor: pointer;
+}
+
+.icono_cerrar_v12{
+
+ 
+    color: #ffffff;
+    z-index: 1000;
+    margin-top: 4px;
+    margin-left: 96.4%;
+    position: absolute;
+    cursor: pointer;
+    position: fixed;
+    opacity: 80%;
+    
+}
+
+element.style {
+    margin-left: 350px;
+}
+
+.toggle {
+    margin-left: 90%;
+    margin-top: -60px;
+    position: absolute;
+    position: fixed;
+    
+}
+
+.imagen_nosotros{
+
+    margin-top: -65px;
+}
+
+.imagen_piezas{
+
+    margin-top: -20px;
+}
+
+.imagen_tapiceria{
+
+    margin-top: -30px;
+}
+
+
+.imagen_motor{
+
+    margin-top: -20px;
+}
+
+.imagen_millennio{
+
+    margin-top: -20px;
+}
+
+.imagen_v12{
+
+    margin-top: -20px;
+}
+
+
+.imagen_ferruccio{
+
+    margin-top: -20px;
+
+}
+
+    player .video-stream {
+    display: block;
+    position: absolute;
+    margin-top: -25px;
+}
+
+.boton_llamar{
+
+    padding: 10px  ;
+    position: fixed;
+    background-color: rgb(10, 11, 14);
+    font-size: 15px ;  
+    height: 35px;
+    width: 225px;
+    z-index: 1000;
+    border-radius: 5px;
+
+     
+}
+
+.boton_llamar:hover{
+    
+    background:rgb(255, 191, 54); 
+ 
+    
+}
+
+
+.llama{
+
+    font-size: 15px ; 
+    margin-top: -64px; 
+    margin-left: 5px;
+    font-family: 'Abel', sans-serif;
+    
+    
+}
+
+element.style {
+    width: 887px;
+    height: 499px;
+    left: 0px;
+    top: -120px;
+    margin-left: 0px;
+}
+
+.boton_tipos_lamborghini {
+
+    font-size: 15px;
+    margin-top: -30px;
+    background-color: rgb(8, 9, 12);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:0%;
+    padding-right: 0%;
+    margin-left: 127px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+
+.boton_tipos_lamborghini:hover{
+    
+    background:rgb(255, 191, 54); 
+   
+}
+
+.icono_sonido{
+
+    color: #ffffff;
+    margin-left: 610px;
+}
+
+
+
+.titulo_1963{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 8%;
+
+}
+
+.informacion_1963{
+
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin-left: 8%;
+
+}
+.boton_historia {
+
+    animation-direction: alternate;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: rgb(7, 8, 10);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:8%;
+    padding-right: 10%;
+    margin-left: -8px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.boton_historia:hover{
+    
+    background:rgb(255, 191, 54); 
+   
+}
+
+.boton_mapa{
+
+    position: fixed;
+    margin-top: 10.5%;
+    margin-left: 73%;
+    z-index: 1000;
+
+}
+
+.boton_mapa:hover{
+
+    filter: brightness(100%);
+    transition: 0.1s;
+    transform: scale(1.10);
+
+}
+
+
+.footer01{
+
+    height: 102%;
+    background-color: rgb(8, 9, 12);
+    margin-top: -8px;
+    padding-top: 0px;
+}
+
+.iconos_footer01{
+
+    color: #ffffff;
+    margin-top: 2px;
+    padding: 0% 0% 0% 28% ; 
+
+           
+}
+
+.iconos_footer01 a:hover{
+
+    filter: brightness(100%);
+    transition: 0.1s;
+    transform: scale(1.10);
+    
+}
+
+.informacion_footer{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin-left: 0%;
+    margin-top: -20px;
+
+        
+}
+
+.informacion_footer01{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin-left: 0%;
+    margin-top: -20px;
+
+        
+}
+
+.www{
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    margin-left: 8px;
+    margin-top: 20%;
+
+}
+
+.www a:hover{
+
+    color: rgb(255, 188, 43);
+    
+}
+
+.mapa{
+
+    position: fixed;
+    margin-top: 33%;
+    margin-left: 91%;
+    z-index: 1000;
+    background-color: none;
+     
+}
+
+.mapa a:hover{
+
+
+    color: rgb(255, 179, 0);
+  
+}
+
+.mapa:hover{
+
+
+    color: rgb(255, 179, 0);
+    filter: brightness(100%);
+    transition: 0.1s;
+    transform: scale(1.10);
+
+    
+}
+
+.Logo_menu01{
+    
+    margin-top: 15px;
+    margin-left: 7px;
+    padding: 0.3%;
+ 
+      
+}
+
+
+

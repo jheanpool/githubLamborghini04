@@ -1,0 +1,30 @@
+.video_inicio{
+
+    margin-top: -60px;
+}
+
+.video-js{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px;
+    width: 101%;
+
+}
+
+.vjs-poster {
+
+    border-radius: 3px;
+}
+
+.vjs-big-play-button{
+
+    background-color: rgb(59, 59, 59) !important;
+    border-color: rgba(255, 255, 255, 0) !important;
+    box-shadow: 3px 3px 3px rgb(7, 7, 7);
+    opacity: 90%;
+    z-index: 0;
+}
+
+                    

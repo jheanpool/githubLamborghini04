@@ -1,0 +1,49 @@
+
+
+                          @media screen and (max-width: 1024px) {
+                                    .row, .navbar {
+                                flex-direction: column;
+                                    padding-top: 8%;
+
+                                           }
+
+
+.v12_galeria{
+
+    margin-top: -12px;
+    position: absolute;
+    width: 100%;
+        
+}
+
+.v12_miniatura{
+
+    margin-top: 40px;
+        
+}
+
+
+.flecha_der_v12{
+
+    position: absolute;
+    position: fixed;
+    margin-top: 19%;
+    margin-left: 86.9%;
+    cursor: pointer;
+}
+
+.flecha_izq_v12{
+
+    position: absolute;
+    position: fixed;
+    margin-top: 19%;
+    margin-left: 1.5%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+}
