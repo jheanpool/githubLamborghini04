@@ -46,6 +46,8 @@ export default function CenteredGrid() {
             en un habitáculo cerrado y con un gigantesco motor soplando a tu espalda)
             y su durabilidad está más que probada.</p>
 
+            <h1>titulo nuevo</h1>
+
             <br></br>
 
           </div>
